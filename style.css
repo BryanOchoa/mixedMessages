@@ -1,3 +1,7 @@
+/* home page css */
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Montserrat:wght@500&family=Reenie+Beanie&family=Sacramento&family=Sixtyfour&display=swap');
+
+
 body {
     margin: 0;
     padding: 0;
@@ -30,6 +34,15 @@ body {
     backdrop-filter: blur(15px);
     padding: 20px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.header img {
+    display: block;
+    width: 300px;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
 }
 
 .header h1 {
@@ -65,7 +78,7 @@ body {
 }
 
 .footer h5{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Montserrat';
     color: white;
     text-align: center;
     padding-right: 1rem;
@@ -85,3 +98,4 @@ body {
 .link:not(:hover){
     transform: scale(0.9);
 }
+
