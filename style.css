@@ -72,6 +72,9 @@ body {
     
 }
 .link {
+    
+   margin: auto;
+    display: inline-block;
     transition: transform 0.3s ease-in-out;
 }
 
