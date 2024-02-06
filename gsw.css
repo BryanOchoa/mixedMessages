@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Montserrat:wght@500&display=swap');
+
+body {
+    background-image: url(assets/warriorsBackground.jpg);
+}
+
+li, a{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    color: black;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0px 15px;
+    background-color: lightgray;
+    height: 100px;
+}
+
+/* NavBar styles */
+
+.logo{
+    height: auto;
+    width: 150px;
+    cursor: pointer;
+    margin-right: auto;
+}
+
+.navLinks li {
+    display: inline-block;
+    padding: 0px 20px;
+    position: relative;
+}
+
+.navLinks li:hover::before{
+    opacity: 1;
+    color:#007A33
+}
+.navLinks li a {
+    transition: all 0.3s ease 0s;
+}
+
+.celtics a:hover {
+    color: #BA9653
+}
+
+.lakers a:hover {
+    color: #552583
+}
+
+.warriors a:hover {
+    color: #FDB927
+}
+
+/* Header styles */
+
+.center{
+    padding-top: 50px;
+    text-align: center;
+    color: white;
+    font-family: 'Montserrat';
+}
+
+.blur {
+    backdrop-filter: blur(15px);
+    margin: 30px;
+    box-shadow: 0 10px 10px rgb(0 0 0 / 0.2);
+    border-radius: 40px;
+    padding-bottom: 10em;
+}
+
+.warLogo{
+    width: 450px;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 60px;
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1);
+}
+
+.neonButton {
+    background-color: #FDB927;
+    border: none;
+    color: #fff;
+    padding: 30px 50px;
+    font-family: 'Balsamiq Sans', sans-serif;
+    letter-spacing: 4px;
+    font-size: 36px;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    position: relative;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.neonButton::before {
+    content: '';
+    position: absolute;
+    color: #FDB927;
+    opacity: 0.5;
+    filter: blur(20px);
+    transition: 0.5s;
+}
+
+.neonButton:hover:before {
+    top: 0;
+    left: 0;
+}
+
+.neonButton:hover {
+    background-color: #fff;
+    color: #FDB927;
+}
+
+/* Footer */
+
+footer {
+    font-family: 'Montserrat';
+    color: white;
+    text-align: center;
+    padding-right: 1rem;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #26282A;
+    color: white;
+    padding: 2px 0;
+}
