@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Montserrat:wght@500&display=swap');
 
 body {
-    background-image: url(assets/warriorsBackground.jpg);
+    background-image: url(/assets/warriorsBackground.jpg);
 }
 
 li, a{
