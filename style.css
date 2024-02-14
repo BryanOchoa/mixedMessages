@@ -18,23 +18,27 @@ body {
 
 .teams {
     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .teams img {
-    width: 300px;
-    height: 300px;
+    width: 100%;
+    max-width: 200px;
+    height: auto;
     margin: 10px;
     object-fit: cover;
 }
 
 .header{
     position: relative;
-    width: 82%;
+    width: 90%;
     margin: auto;
     backdrop-filter: blur(15px);
     padding: 20px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
     text-align: center;
+    z-index: 1;
 }
 
 .header img {
